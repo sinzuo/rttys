@@ -83,8 +83,8 @@ func parseConfig() *RttysConfig {
 	cfg := &RttysConfig{}
 
 	flag.StringVar(&cfg.addr, "addr", ":5912", "address to listen")
-	flag.StringVar(&cfg.sslCert, "ssl-cert", "./rttys.crt", "certFile Path")
-	flag.StringVar(&cfg.sslKey, "ssl-key", "./rttys.key", "keyFile Path")
+//	flag.StringVar(&cfg.sslCert, "ssl-cert", "./rttys.crt", "certFile Path")
+//	flag.StringVar(&cfg.sslKey, "ssl-key", "./rttys.key", "keyFile Path")
 	flag.StringVar(&cfg.token, "token", "", "token to use")
 	conf := flag.String("conf", "./rttys.conf", "config file to load")
 	genToken := flag.Bool("gen-token", false, "generate token")

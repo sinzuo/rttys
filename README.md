@@ -18,7 +18,10 @@
 [![Build Status][9]][10]
 
 This is the server program of [rtty](https://github.com/zhaojh329/rtty)
-
+''''
+// 使用方法先go get -d github.com/rakyll/statik/fs
+// statik -src=./html/dist && go fmt statik/statik.go
+''''
 # Usage
 ## download the pre-built release binary from [Release](https://github.com/zhaojh329/rttys/releases) page according to your os and arch or compile it by yourself.
 
