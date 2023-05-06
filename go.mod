@@ -13,7 +13,7 @@ replace (
 
 require (
 	github.com/GehirnInc/crypt v0.0.0-20190301055215-6c0105aabd46
-	github.com/gorilla/websocket v1.4.0
+	github.com/gorilla/websocket v1.4.1
 	github.com/howeyc/gopass v0.0.0-20170109162249-bf9dde6d0d2c
 	github.com/json-iterator/go v1.1.6
 	github.com/kylelemons/go-gypsy v0.0.0-20160905020020-08cad365cd28
